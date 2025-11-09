@@ -5,7 +5,7 @@ Template-based docx report creation. ([See the blog post](http://guigrpa.github.
 HEAVILY inspired (aka copy/pasted) from [docx-templates](https://github.com/guigrpa/docx-templates) 🙏
 
 ```sh
-go get github.com/ArFnds/godocx-template
+go get github.com/ctengiz/godocx-template
 ```
 
 ## Why?
@@ -50,7 +50,7 @@ Contributions are welcome!
 # Installation
 
 ```
-$ go get github.com/ArFnds/godocx-template
+$ go get github.com/ctengiz/godocx-template
 ```
 
 # Usage
@@ -65,7 +65,7 @@ import (
 	"reflect"
 	"time"
 
-	. "github.com/ArFnds/godocx-template"
+	. "github.com/ctengiz/godocx-template"
 )
 
 func main() {
@@ -146,7 +146,7 @@ import (
 	"os"
 	"time"
 
-	. "github.com/ArFnds/godocx-template"
+	. "github.com/ctengiz/godocx-template"
 )
 
 func main() {

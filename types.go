@@ -1,6 +1,6 @@
 package godocx
 
-import "github.com/ArFnds/godocx-template/internal"
+import "github.com/ctengiz/godocx-template/internal"
 
 type Delimiters = internal.Delimiters
 type ReportData = internal.ReportData

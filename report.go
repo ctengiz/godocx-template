@@ -6,7 +6,7 @@ import (
 	"log/slog"
 	"slices"
 
-	"github.com/ArFnds/godocx-template/internal"
+	"github.com/ctengiz/godocx-template/internal"
 )
 
 const (
