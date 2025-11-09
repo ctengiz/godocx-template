@@ -1,4 +1,4 @@
-package internal
+package godocx
 
 import (
 	"errors"
@@ -6,12 +6,6 @@ import (
 	"log/slog"
 	"slices"
 	"strings"
-)
-
-const (
-	TEMPLATE_PATH                 = "word"
-	CONTENT_TYPES_PATH            = "[Content_Types].xml"
-	DEFAULT_LITERAL_XML_DELIMITER = "||"
 )
 
 type ParseTemplateResult struct {

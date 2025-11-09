@@ -1,4 +1,4 @@
-package internal
+package godocx
 
 func PreprocessTemplate(root Node, delimiter Delimiters) (Node, error) {
 
