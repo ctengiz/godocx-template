@@ -523,8 +523,8 @@ func parseFunctionCall(rest string) ([]string, bool) {
 		current := strings.Builder{}
 		isInString := false
 		for _, char := range []rune(matches[2]) {
-			if char == '\'' {
-				current.WriteRune(char)
+			if char == '\'' || char == '"' || char == '‘' || char == '’' || char == '“' || char == '”' {
+				current.WriteRune('\'')
 				isInString = !isInString
 			} else if char == ',' && !isInString {
 				args = append(args, strings.TrimSpace(current.String()))
