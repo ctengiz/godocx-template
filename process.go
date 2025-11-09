@@ -513,7 +513,7 @@ func findParentPorTrNode(node Node) (resultNode Node) {
 	return
 }
 
-var functionCallRegexp = regexp.MustCompile(`(\w+)\(([^)]*)\)`)
+var functionCallRegexp = regexp.MustCompile(`(\w+)\s*\(([^)]*)\)`)
 
 func parseFunctionCall(rest string) ([]string, bool) {
 	matches := functionCallRegexp.FindStringSubmatch(rest)
